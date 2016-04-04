@@ -1,9 +1,7 @@
 ﻿;Autohotkey script
-;John Walker, 2010-11-25
-;http://www.inertreactants.com
+;Plamen Vasilev, 2016-03-01
 ;Feel free to reuse, edit and redistribute
-;Key remaps for Apple users using boot camp
-;(with an Apple notebook or Keyboard)
+;Key remaps for Apple users using windows with an Apple notebook or Keyboard
 
 ;following section remaps alt-delete keys to mimic OSX
 ;command-delete deletes whole line
@@ -80,12 +78,6 @@
 #+SC02C::Send {LCtrl down}{Shift down}{SC02C}{Shift up}{LCtrl up} ; z
  
 ; change keyboar layout
-;!Space::
-;PostMessage, 0x50, 0x02,0,, A ; 0x50 is WM_INPUTLANGCHANGEREQUEST
-;return
-;#Space::
-;PostMessage, 0x50, 0x02,0,, A ; 0x50 is WM_INPUTLANGCHANGEREQUEST
-;return
 $^Space::
 PostMessage, 0x50, 0x02,0,, A ; 0x50 is WM_INPUTLANGCHANGEREQUEST
 return   
