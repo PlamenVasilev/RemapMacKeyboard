@@ -96,16 +96,16 @@ CTRL & LBUTTON::send {RButton}
 SC056::Send {SC029} 
 +SC056::Send {Shift down}{SC029}{Shift up}
 
-#1::^1
-#2::^2
-#3::^3
-#4::^4
-#5::^5
-#6::^6
-#7::^7
-#8::^8
-#9::^9
-#0::^0
+;#1::^1
+;#2::^2
+;#3::^3
+;#4::^4
+;#5::^5
+;#6::^6
+;#7::^7
+;#8::^8
+;#9::^9
+;#0::^0
 #+SC014::Send {LCtrl down}{Shift down}{SC014}{Shift up}{LCtrl up} ; t
 #+SC02C::Send {LCtrl down}{Shift down}{SC02C}{Shift up}{LCtrl up} ; z
 
